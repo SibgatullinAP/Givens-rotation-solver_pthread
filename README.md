@@ -1,4 +1,4 @@
-# Givens rotation solving method 
+# Givens rotation paralle solving method 
 
 This repo contain parallel (using pthread library) implementation of Given's rotation method to solve linear system. https://algowiki-project.org/en/Givens_method. I tried to optimize this method by enhanced use of CPU cache. This was achieved by operating with matrix blocks that fit in the cache.
 
